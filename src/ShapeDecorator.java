@@ -1,12 +1,12 @@
 public abstract class ShapeDecorator extends Shape {
 
-    protected Shape decoaratedShape;
+    protected Shape decoratedShape;
 
     public ShapeDecorator(Shape ds) {
-        this.decoaratedShape = ds;
+        this.decoratedShape = ds;
     }
 
     public void draw() {
-        decoaratedShape.draw();
+        decoratedShape.draw();
     }
 }
